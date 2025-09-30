@@ -150,68 +150,59 @@ npm install -D typescript tailwindcss eslint eslint-config-next @eslint/eslintrc
 ```
 ---
 
-## Demo
+## Descripcion de funcionalidad
 
-A continuación se muestran las distintas pantallas y funcionalidades implementadas en la app:
+A continuación se describen funcionalidades implementadas en la app:
 
 ---
 
 ### 1. Pantalla de Splash
-- Logo de la app, mensaje de bienvenida y animación de carga.
-![Splash](./screenshots/1.jpg)
+- Mensaje de bienvenida y animación de carga.
 
 ---
 
 ### 2. Pantalla Home
 - Vista principal con recetas destacadas (SSR).
 - Acceso a búsqueda, filtros y favoritos.
-![Home](./screenshots/home.png)
 
 ---
 
 ### 3. Búsqueda y Filtrado de Recetas (CSR)
 - Búsqueda dinámica desde la API.
 - Filtros aplicados en cliente.
-![Busqueda](./screenshots/busqueda.png)
 
 ---
 
 ### 4. Recetas Favoritas (Datos Locales en IndexedDB)
 - Guardar y gestionar recetas favoritas.
 - Persistencia entre sesiones.
-![Favoritos](./screenshots/favoritos.png)
 
 ---
 
 ### 5. Recetas Vistas Recientemente (Offline)
 - Últimas recetas consultadas accesibles sin internet.
-![Offline](./screenshots/offline.png)
 
 ---
 
 ### 6. Notificaciones
 - Ejemplo de notificación recordando recetas guardadas.
-![Notificaciones](./screenshots/notificacion.png)
 
 ---
 
 ### 7. Uso de Cámara 📷
 - Captura de foto del platillo terminado.
 - Vista previa de la cámara y guardado en IndexedDB.
-![Camara](./screenshots/camara.png)
 
 ---
 
 ### 8. Sistema de Pasos con Vibración 📳
 - Pasos de la receta.
 - Vibración al avanzar en cada paso.
-![Pasos](./screenshots/pasos.png)
 
 ---
 
 ### 9. Lectura de Pasos con Voz 🔊
 - Funcionalidad de accesibilidad usando Text-to-Speech.
-![Voz](./screenshots/voz.png)
 
 
 
